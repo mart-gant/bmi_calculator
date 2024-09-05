@@ -1,16 +1,32 @@
-# bmi_calculator
+# BMI Calculator
 
-A new Flutter project.
+A simple Body Mass Index (BMI) Calculator built using Flutter.
+
+## Overview
+
+This Flutter app allows users to input their height and weight to calculate their Body Mass Index (BMI). The app provides the calculated BMI value and indicates the user's weight category (e.g., Underweight, Normal weight, Overweight, or Obesity).
+
+### Features
+
+- **Input Form**: Users can enter their height (in centimeters) and weight (in kilograms).
+- **BMI Calculation**: The app calculates the BMI using the standard formula.
+- **Result Display**: The app shows the calculated BMI along with the corresponding weight category.
+- **Reset Functionality**: Users can reset the input form and clear the results.
+- **Input Validation**: The form validates inputs to ensure only numeric values are entered.
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+### Prerequisites
 
-A few resources to get you started if this is your first Flutter project:
+Before running this app, make sure you have the following installed on your system:
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+- [Flutter SDK](https://flutter.dev/docs/get-started/install)
+- [Dart SDK](https://dart.dev/get-dart)
+- A suitable IDE, such as [Android Studio](https://developer.android.com/studio) or [VS Code](https://code.visualstudio.com/).
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+### Installation
+
+1. **Clone the repository:**
+   ```bash
+   git clone https://github.com/yourusername/bmi_calculator_flutter.git
+   cd bmi_calculator_flutter
